@@ -1,0 +1,108 @@
+{
+  "name": "Name",
+  "email": "Email Address",
+  "pass": "Password",
+  "pho": "Phone Number",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "gender_hnt": "Select your gender.",
+  "gender_vald": "Please select your gender.",
+
+  "apart_name": "Apartment Name",
+  "address": "Address",
+  "price": "Price",
+  "rooms": "Rooms",
+  "no_pics": "No Pictures Found.",
+  "tap_again_exit": "Tap back again to exit.",
+  "samsarly": "Samsarly",
+  "tokens": "Tokens",
+  "watch_ads": "Watch Ads",
+  "invite": "Invite People",
+  "subscribe": "Subscribe",
+  "tokens": "Tokens",
+  "tokens": "Tokens",
+  "tokens": "Tokens",
+
+
+  "about": "About",
+  "contact_us": "Contact us here:",
+
+
+  "acc_Settings": "Account Settings",
+  "change_email": "Change Email Address",
+  "change_pass": "Change Password",
+  "change_pho": "Change Phone Number",
+  "id_support": "ID Card Support",
+
+  "recovery": "Recovery",
+  "enter_email": "Enter your Email Address.",
+
+  "code_sent_msg": "A code has been sent to your email address",
+  "code_tff": "Code",
+  "submit_button": "Submit",
+  "new_String": "Enter your new ",
+
+
+  "home": "Home",
+  "apartment": "Apartment:",
+  "reveal_pho": "Reveal phone Number",
+
+
+  "my_properties": "My Properties",
+  "apartment id: ": "Apartment ID: ",
+
+  "my_property": "My Property",
+  "edit_property": "Edit this property",
+
+
+  "add_apart": "Add Apartment",
+  "pics_button": "Pics",
+  "location_button": "Location",
+  "Add_button": "Add",
+
+
+  "notifications": "Notifications",
+
+
+  "profile": "Profile",
+  "your_id": "Your ID Card",
+
+
+  "settings": "Settings",
+  "light_mode": "Light Mode",
+  "dark_mode": "Dark Mode",
+  "preferred_lan": "Preferred Language",
+  "select_lan_hint": "Select your language.",
+  "lan_vald": "Please select a language.",
+
+
+  "sign_in": "Sign In",
+  "remember_me": "Remember me",
+  "don't_have_acc": "Don't have an account? Register.",
+  "forgot_password": "Forgot your password?",
+
+  "register": "Register",
+  "id": "ID",
+
+  "log_out":  "Log Out",
+
+
+
+
+
+
+
+  "member1":"Ali Ibrahim Ali Ibrahim",
+  "member2":"Heba El Sayed Abd ElKareem",
+  "member3":"Shimaa AbdEllah Mohammed",
+  "member4":"Apo Alaa",
+  "member5":"Ahmed Fakhry",
+  "member6":"Mazen",
+  "member7":"Seif Nasser",
+  "member8":"Sohila Yasser",
+
+  "front": "FrontEnd Developer",
+  "back": "BackEnd Developer",
+  "flutter": "Flutter Developer"
+}

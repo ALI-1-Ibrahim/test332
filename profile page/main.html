@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/3t.png">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">             -->
+
+</head>
+<body>
+
+    <div id = "TitlePar" style="display: flex;">
+        <div id="menuandprofile">
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn">
+                <!-- <img src="../imgs/menue.png"width = "20px" id = "menu_ParsAndClose"> -->
+                <i class="fa fa-bars" style="font-size:28px;"id = "menu_ParsAndClose"></i>
+            </label>
+            <div style="margin-left: -36%;"><a href="../profile page/main.html" style="text-decoration: none;"><img src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg" id="profilepic"  style="border-radius: 100%;width: 45px;height: 45px;"></a></div>
+
+            <div class="wrapper">
+                <ul>
+                    <div><a href="../home page/main.html" style="text-decoration: none;"><img src="../imgs/3t.png" id="SAMSARLYLOGO"  style="border-radius: 100%;width: 200px;background: linear-gradient(to top right, #ffffff -11%, blue 100%)"></a></div>
+                    <li><a href="../home page/main.html" lng-tag="samsarly"></a></li>
+                    <li><a href="../my properties/main.html" lng-tag="my_properties"></a></li>
+                    <li><a href="#" lng-tag="acc_Settings"></a></li>
+                    <li><a href="../setting page/main.html" lng-tag="settings"></a></li>
+                    <li><a href="../about page/main.html" lng-tag="about"></a></li>
+                    <li><a href="#" lng-tag="log_out"></a></li>
+                </ul>
+            </div>
+        </div>
+        <p style="font-size: 25px;font-weight: bold;padding-left: 6%;"lng-tag="profile"></p>
+        <div style="display: flex;padding: 0px 45px;">
+            <i class='fas fa-coins' style="font-size:28px;padding-right: 50%;"></i>
+            <i class="fa fa-bell" style="font-size:28px;padding:0% 1%;"></i>
+        </div>
+    </div>
+
+    <div style="display: flex;flex-direction: column;align-items: center;justify-content: center;padding: 5%;">
+        <!-- <img src="../imgs/profilepic.jpg" style="border-radius: 100px;width: 200px;"> -->
+        
+            <div id = "pic">
+                <div class="circle">
+                    <img class="profile-pic" id="profile-pic"  src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg">
+                </div>
+
+                <div class="p-image">
+                    <i class="fa fa-camera upload-button" id="upload-button"></i>
+                    <input class="file-upload" id = "select-image" type="file" accept="image/*"/>
+                </div>
+            </div>
+         <!--  -->
+        <p style="font-size: 50px;color: black;" >this should be my name</p>
+        <fieldset>
+            <legend lng-tag="email">Email Address</legend> 
+            <p id="addresss">lhjljlkj</p> 
+        </fieldset>
+        <fieldset>
+            <legend lng-tag="pho">Phone Number</legend> 
+            <p id="addresss">ljhjlkkjh</p> 
+        </fieldset>
+
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- <div id="PreLoader"></div> -->
+    <div id="PreLoader">
+        <P class="p">l</p>
+        <P class="p">o</p>
+        <P class="p">a</p>
+        <P class="p">d</p>
+        <P class="p">i</p>
+        <P class="p">n</p>
+        <P class="p">g</p>
+    </div>
+    <script src="../js/lang.js"></script>
+    <script src="../js/profile.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
